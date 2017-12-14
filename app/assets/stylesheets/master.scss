@@ -1,0 +1,207 @@
+/*
+ *= require jquery-ui
+ */
+
+@import "bootstrap";
+@import "font-awesome";
+
+
+#alg-arrow {
+  color: black;
+}
+
+.black-box { 
+  background: rgba(0, 0, 0, 0.4);
+  padding: 80px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0px 1px 3px #2a2a2a;
+  border-radius: 1%;
+}
+
+body {
+  font-family: 'amatic_scregular', san-serif;
+  background-color: black;
+  color: white;
+}
+
+body a {
+  color: white;
+}
+
+body h3 {
+  color: black;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+.code {
+  background: rgba(0, 0, 0, 1);
+  color: white;
+  padding: 20px;
+}
+
+.code-header {
+  padding-bottom: 15px;
+  color: #FAFC5A;
+  text-shadow: rgba(0, 0, 0, 0.95) 2px 2px;
+}
+
+.contact a.btn {
+  color: white;
+}
+
+.gj {
+  height: 200px;
+  border-radius: 25%;
+  border-style: solid; 
+  border-color: black;
+  }
+
+.green-box { 
+  background: rgba(99, 193, 80, 0.7);
+  color: black;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-family: 'exolight', san-serif;
+  width: 100%;
+  font-size: 20px;
+  min-height: 150px;
+}
+
+.header h1 {
+  font-size: 60px;
+}
+
+.hero {
+  background: image_url('main.jpg')no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 600px;
+ }
+
+.hero-2{
+  background: image_url('portfolio.jpg')no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 600px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+ }
+
+.language-ruby {
+  color: #FAFC5A;
+  font-size: 15px;
+}
+
+.main {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  min-height: 100vh;
+}
+
+.main a {
+  color: rgba(99, 193, 80, 1);
+}
+
+
+.main-2 {
+  font-family: 'exolight', san-serif;
+  background: image_url("apps.jpg")no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.navbar {
+  background-image: image_url("starchaser.jpg");
+}
+
+.navbar-links {
+  list-style: none;
+}
+
+.icons2 {
+  box-shadow: 0px 1px 3px #2a2a2a;
+  background: rgba(255, 255, 255, 0.7);
+  width: auto;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.icons-box {
+  list-style: none;
+}
+
+.icons-box a {
+  color: #FAFC5A;
+  font-family: 'exolight', san-serif;
+  text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+}
+
+.portfolio {
+  color: black;
+}
+
+.second {
+  background-image: url('second.png');
+  padding-top: 40px;
+  padding-bottom: 40px;
+  min-height: 600px;
+}
+
+.resume {
+  background: image_url('resumepic.jpg')no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  min-height: 100vh;
+}
+
+.resume-box { 
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  box-shadow: 0px 1px 3px #2a2a2a;
+  border-radius: 1%;
+}
+
+.text {
+  color: black;
+}
+
+.text:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.white-box { 
+  background: rgba(255, 255, 255, 0.8);
+  color: black;
+  padding: 20px;
+  box-shadow: 0px 1px 3px #2a2a2a;
+  font-family: 'exolight';
+  border-radius: 1%;
+  width: 100%;
+  list-style: none;
+  font-size: 20px;
+  min-height: 40px;
+  position: relative;
+}
+
+.white-text {
+  color: white;
+}

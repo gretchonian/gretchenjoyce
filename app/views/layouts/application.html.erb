@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gretchen Joyce</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content = "Gretchen Joyce is a Software Developer accepting contract, part-time, or full-time remote work, or in-house work within Southern Oregon."/>
+    <meta name="keywords" content = "Web Developer, Ruby, Rails, Ruby on Rails, Developer, Software Developer, Software Engineer, Southern Oregon, Oregon, Javascript, HTML, CSS, Engineer, Process Engineer, Chemical Engineer, Gretchen Joyce"/>
+  </head>
+
+  <body>
+    <div id="flex-container">
+      <nav class="navbar sticky-top">
+        <div class="row">
+          <div class="col-md-10 align-self-center">
+            <%= link_to 'Gretchen Joyce', root_path, class: "h1" %>
+          </div>
+          <div class="col">
+            <ul class="navbar-links">
+              <li>
+                <%= link_to "Home", root_path, class: "float-right" %>
+              </li>
+              <br/>
+              <li>
+                <%= link_to "Portfolio", portfolio_path, class: "float-right" %>
+              </li>
+              <br />
+              <li>
+                <%= link_to "Code Samples", code_path, class: "float-right" %>
+              </li>
+               <br />
+              <li>
+                <%= link_to "Resume", resume_path, class: "float-right" %>
+              </li>
+          </div>
+        </div>
+      </nav>
+      <div class="body-container">
+        <% if notice.present? %>
+          <p class="alert alert-info"><%= notice %></p>
+        <%end%>
+        <% if alert.present? %>
+          <p class="alert alert-danger"><%= alert %></p>
+        <%end%>
+      </div>
+      <%= yield %>
+      <div class="footer">
+        <div class="footer_all container">
+          <div class="row">
+            <div class="col-md text-center">
+              <u>CONTACT</u>
+              <div>
+                <%= link_to "tel:+1-541-630-4720", class: 'phone' do%>
+                  <i class="fa fa-phone"></i>&nbsp;541-630-4720
+                <% end %>
+              </div>
+            </div>
+            <br/>
+            <div class="col-md text-center">
+              <u>MESSAGE</u>
+              <div>
+                <%= link_to "mailto:gretchen@gretchenjoyce.info" do %> 
+                  <i class="fa fa-envelope"></i>&nbsp;&nbsp;Email
+                <% end %>
+              </div>
+            </div>
+            <div class="col-md text-center">
+              <u>PORTFOLIO</u>
+              <div>
+                <%= link_to portfolio_path do %> 
+                  <i class="fa fa-file-powerpoint-o"></i>&nbsp;&nbsp;Web Applications
+                <% end %>
+              </div>
+            </div>
+            <div class="col-md text-center">
+              <u>CODE</u>
+              <div>
+                <%= link_to code_path do %> 
+                  <i class="fa fa-heart" aria-hidden="true"></i>&nbsp;&nbsp;Code Samples
+                <% end %>
+              </div>
+            </div>
+            <div class="col-md text-center">
+              <u>RESUME</u>
+              <div>
+                <%= link_to resume_path do %> 
+                  <i class="fa fa-code" aria-hidden="true"></i>&nbsp;&nbsp;Resume
+                <% end %>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
